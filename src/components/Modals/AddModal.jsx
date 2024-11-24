@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 
+
 const AddModal = ({ onAddStudent }) => {
   const [name, setName] = useState("");
   const [age, setAge] = useState("");
