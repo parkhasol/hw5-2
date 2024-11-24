@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { Modal, Button, Form } from "react-bootstrap";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 const EditModal = ({ show, onHide, student, onUpdate, onDelete }) => {
   const [updatedStudent, setUpdatedStudent] = useState({
