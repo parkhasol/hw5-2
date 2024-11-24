@@ -14,7 +14,7 @@ const UpdatePage = () => {
   const firstNameRef = useRef(null);
   const lastNameRef = useRef(null);
   const phoneRef = useRef(null);
-  const emailRef = useRef(null);
+  
 
   const [editCount, setEditCount] = useState(0);
 
